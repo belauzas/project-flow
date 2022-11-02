@@ -95,3 +95,26 @@ Tikslas yra kokybiškos užduotys, t.y. perskaičius praktiškai nekyla klausim�
     -   jei kilo _git conflict'as_ - ištaisom, jog jo neliktu;
     -   jei sugriūvo dizainas ir/arba logika - ištaisom, jog viskas veiktų taip kaip reikia;
     -   ir tik tada galim susikurti savo PR iš _feature-branch_ į _develop_ branch'ą;
+
+## Kodo peržiūra/patikra (Code review)
+
+Procesas kodo kokybei palaikyti ir gal net pagerinti.
+
+-   visų pirma atsisiunčiame PR pas save lokaliai;
+-   persijungiame brach'ą į PR branch'ą;
+-   pasileisti `npm i` komandą;
+-   jei naudojai testai, tai pasileisti _test_ komandą `npm run test`;
+    -   jei randamos klaidos - Github PR komentaruose taip ir parašom; kol neištaisys, tolimesnis tikrinimas nebus daromas;
+-   pasileisti _dev_ serverį su `npm run dev` komandą;
+    -   naršyklėje atsidaryti nuorodą;
+    -   sužiūrėti _responsive design_;
+    -   patikrinti, ar _console_ švari?
+    -   sužiūrėti, ar laikomasi HTML, CSS ir JS rašymo reikalavimų (žr. Užduoties atlikimas)
+    -   ar visi resursai užsikrauna (failai)?
+    -   sužiūrėti, jog PR turi viską ko reikalo užduotis (darbų lenta), jei kažko nėra - žymim kaip klaidą, nebent buvo susitartą tą dalį iškelti kaip atskirą užduotį;
+    -   jei randamos klaidos ir žinomos tikslios vietos kode kur jos kyla, tai reikia _Github PR -> Files changed_ dalyje pažymėti tas vietas ir parašyti konkrečius komentarus kas ten yra galima negerai ir/arba ką gali tobulinti;
+    -   jei randama klaida, bet tikrintojui nepavyksta nustatyti priežasties, tai tokį komentarą reikia parašyti prie "Review changes" formos;
+    -   jei rasta kritinių klaidų, tai privaloma "Review changes" formoje spausti "Request changes" parinkti;
+    -   "Review changes" formoje spausti "Approve" parinktį galima tik jei tikrai nerandi jokių priekaištų peržiūrėtam kodui, o kaip komentarą galima pvz palikti "LGTM";
+-   kai buvo atlikta reikiamas kiekis kodo patikrinimų, tai pirmas pamatęs galimybę "sumerdžinti" kodą - tą ir padaro;
+-   nebereikalingus branch'us išsitrina asmenys, kurie su juo dirbo (savininkas, tiek _online_, tiek _local_);
