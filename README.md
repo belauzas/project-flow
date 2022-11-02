@@ -118,3 +118,11 @@ Procesas kodo kokybei palaikyti ir gal net pagerinti.
     -   "Review changes" formoje spausti "Approve" parinktį galima tik jei tikrai nerandi jokių priekaištų peržiūrėtam kodui, o kaip komentarą galima pvz palikti "LGTM";
 -   kai buvo atlikta reikiamas kiekis kodo patikrinimų, tai pirmas pamatęs galimybę "sumerdžinti" kodą - tą ir padaro;
 -   nebereikalingus branch'us išsitrina asmenys, kurie su juo dirbo (savininkas, tiek _online_, tiek _local_);
+
+## Rezultato viešinimas
+
+Periodiškumas. Užduočių grupavimas, nes kartais neprasminga paleisti neišbaigto funkcionalumo komplekto.
+
+-   Į _master_ branch'ą atnaujinimai turėtų sueiti bent kas antrą dieną;
+-   Į _develop_ branch'ą atnaujinimai turėtų sueiti iš karto po užduoties atlikimo;
+-   vieša projekto nuoroda (Github pages) privalo veikti visą laiką;
