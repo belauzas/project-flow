@@ -32,3 +32,22 @@ Išankstinis techninių ir netechninių klausimų aptarimas ir reikalavimų išs
     -   _git-conflict_ padedantys išvengti veiksmai?
     -   CI/CD naudojimas?
     -   persiklausti, ar visi supranta, koks bus darbo procesas? (Github-flow)
+
+## Užduočių planavimas
+
+Tikslas yra kokybiškos užduotys, t.y. perskaičius praktiškai nekyla klausimų kaip jas realizuoti, o realizavus, tikrintojams nekyla kažkokių esminių trūkumų. Agile/scrume.
+
+-   Trumpa bet aiški antraštė.
+-   Dažniausiai bus reikalingas išsamus aprašymas, kurį gali sudaryti:
+    -   tekstas;
+    -   sąrašas (✅) kriterijų, kuriuos turi atitikti;
+    -   nuotraukos/screenshot'ai;
+    -   nuotraukose esant poreikiui naudinga turėti papildomus pažymėjimus;
+    -   nuorodos į dokumentaciją, kuria būtų galima pasinaudoti sprendžiant esamą užduotį;
+    -   ar reikia atnaujinti projekto README?
+    -   ar bus reikalinti testai (pvz.: Jest)?
+-   _Labels_ (hashtags) naudojimas. Padeda, turint daug užduočių, atsirinkti/atsifiltruoti tik tas užduotis, kurios domina pagal kažkokias temas.
+-   Priskirimas darbų lentai.
+-   Užduoties kūrimo metu nepriskirinėjam žmogaus, kuris ją turės atlikti! Nes mes ne pranašai ir nežinom kas tuo metu pas mus komandoje dirbs, kas bus gyvas, kas bus laisvas, t.t.
+-   Prieš pradedant atlikinėti užduotis (bendrai), jos turi būti surikiuotos prioriteto tvarka.
+    -   Užduočių atlikas vadovaujasi ta pačia prioriteto tvarka, t.y jei atsilaisvimai (atlikai darytą užduotį), tai imi sekančią svarbiausią užduotį.
