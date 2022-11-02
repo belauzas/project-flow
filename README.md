@@ -51,3 +51,47 @@ Tikslas yra kokybiškos užduotys, t.y. perskaičius praktiškai nekyla klausim�
 -   Užduoties kūrimo metu nepriskirinėjam žmogaus, kuris ją turės atlikti! Nes mes ne pranašai ir nežinom kas tuo metu pas mus komandoje dirbs, kas bus gyvas, kas bus laisvas, t.t.
 -   Prieš pradedant atlikinėti užduotis (bendrai), jos turi būti surikiuotos prioriteto tvarka.
     -   Užduočių atlikas vadovaujasi ta pačia prioriteto tvarka, t.y jei atsilaisvimai (atlikai darytą užduotį), tai imi sekančią svarbiausią užduotį.
+
+## Užduoties atlikimas
+
+Į ką atsižvelgti atlikinėjant užduotį.
+
+-   Nuo ko pradėti?
+    -   Perskaityti užduotį, ir įsitikinti, jog supranti ką reikia padaryti;
+    -   Jei kila papildomų klausimų - rašom komentarus prie tos pačios užduoties (Github'e) ir laukiam patikslinimų iš komandos narių ir/arba kliento;
+    -   Užduotyje prisiskiram save kaip _Assignee_;
+    -   Susikuriam _feature-branch_ Github'e (online) ir dirbam;
+    -   Jei projekte yra naudojami/rašomi testai (pvz.: Jest), tai reikia atskirame terminale pasileisti testų script'ą;
+    -   reikalingi resursai (nuotraukos, šriftai, video, audio) turi būti įtraukiami su kiekviena individualia užduoti, o ne sukelta prieš pradedant dirbti bendrai prie projekto;
+-   Jei atliekant savą užduotį kažkuris komandos narys spėjo "sumerdžinti" (PR merge) savo branch'ą į _develop_ branch'ą?
+    -   Pasidarom PR iš _develop_ į savo _feature-branch_;
+    -   Jei sugriūna dizainas ir/arba logika (JS), tai prisiimam sau kaltę ir taip ištaisome savo kodą, jog veiktų ir kodas esantis _develop_ branch'e ir pas tave;
+-   Ką daryti kai stringi ties užduotimi?
+    -   Pats ieškai sprendimo ~30min;
+    -   Klausiam savo komandos narių, tam skiriam max ~1-2val;
+    -   Klausiam grupės narių, tam skiriam max ~1-2val;
+    -   Klausiam kitų besimokančių, tam skiriam max ~1-2val;
+    -   Klausiam mentorių;
+-   Jei atliekant užduotį paaiškėja, jog dalies funkcionalumo nepavyks įgyvendinti?
+    -   atliekam tiek užduoties kiek galim;
+    -   atliekam visą procesą susijusi apie pagalbos iš kitų gavimą;
+    -   neišspręstą funkcionalumo dalį išsikeliame kaip naują atskirą užduotį;
+-   Testavimas/tikrinimas, tiek atlikinėjant užduotį, tiek ją baigus:
+    -   jei kalba eina apie struktūrą (HTML):
+        -   kritiškai pažiūrime, ar kartais nėra perteklinių HTML tag'ų;
+        -   sužiūrėti, ar galima panaudoti semantiškai tinkamesnį HTML tag'ą;
+    -   jei kalba eina apie dizainą (CSS):
+        -   pasitikriname kaip viskas atrodo keičiant ekrano dydį (_responsive design_ momentas);
+        -   ar nėra naudojami #ID selektoriai, jei yra - ar tam turima svari priežastis;
+        -   ar nėra naudojami "!important", jei yra - ar tam turima svari priežastis;
+        -   ar selector'iai yra rašomi elementų atsiradimo eiliškumu?
+        -   ar selector'iai neviršija 3-jų lygių (specificity)?
+    -   jei kalba eina apie logiką (JS):
+        -   ar pagal nutylėjimą naudojamos _const_?
+        -   naršyklės console turi būti švari; jokių išspausdintų reikšmių; jokių klaidos pranešimų;
+        -   jei užduotyje buvo numatyti naudoti tikrus testus (pvz.: Jest), tai ar jie aprašyti? Būtų labai gerai, jei kokybiškų testų būtų kuo daugiau.
+-   Baigus užduotį:
+    -   pasidaryti dar vieną papildomą PR iš _develop_ branch'o;
+    -   jei kilo _git conflict'as_ - ištaisom, jog jo neliktu;
+    -   jei sugriūvo dizainas ir/arba logika - ištaisom, jog viskas veiktų taip kaip reikia;
+    -   ir tik tada galim susikurti savo PR iš _feature-branch_ į _develop_ branch'ą;
