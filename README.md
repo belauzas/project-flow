@@ -27,6 +27,7 @@ Išankstinis techninių ir netechninių klausimų aptarimas ir reikalavimų išs
         -   pvz.: Kažkas visai nedirba. Ką daryti?
         -   pvz.: PR ilgai kabo nepatvirtinti, todėl pyksta klientas. Ką daryti?
 -   Kiti techniniai klausimai:
+    -   kintamųjų, funkcijų, failų, folderių ir kt. pavadinimų rašymo standartai?
     -   eslint naudojimas?
     -   prettier naudojimas?
     -   _git-conflict_ padedantys išvengti veiksmai?
