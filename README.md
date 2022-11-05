@@ -19,7 +19,7 @@ Išankstinis techninių ir netechninių klausimų aptarimas ir reikalavimų išs
     -   Ką dariau vakar?
     -   Ką darysiu šiandien?
     -   Ar kylo kokių nors kliūčių?
-    -   Rekomenduotina visus šiuos 3 klausimus atsakyti raštu į projekto grupės chat'ą/kanale;
+    -   Rekomenduotina į visus šiuos 3 klausimus atsakyti raštu projekto grupės chat'e/kanale;
 -   Ar darom penktadienines retrospektyvas?
     -   Ar atliekant užduotis, kilo kokių nors nesusipratimų? Jei taip, kaip būtų galima geriau jas apsirašyti?
     -   Ar darbo procese yra kokių trūkumų? Kaip tai pagerinti?
