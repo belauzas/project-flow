@@ -19,9 +19,9 @@ Išankstinis techninių ir netechninių klausimų aptarimas ir reikalavimų išs
     -   Ką dariau vakar?
     -   Ką darysiu šiandien?
     -   Ar kylo kokių nors kliūčių?
-    -   Rekomenduotina visus šiuos 3 klausimus atsakyti raštu projekto grupės chat'ą/kanale;
+    -   Rekomenduotina visus šiuos 3 klausimus atsakyti raštu į projekto grupės chat'ą/kanale;
 -   Ar darom penktadienines retrospektyvas?
-    -   Ar atliekant užduotis, kylo kokių nors nesusipratimų? Jei taip, kaip būtų galima geriau jas apsirašyti?
+    -   Ar atliekant užduotis, kilo kokių nors nesusipratimų? Jei taip, kaip būtų galima geriau jas apsirašyti?
     -   Ar darbo procese yra kokių trūkumų? Kaip tai pagerinti?
         -   pvz.: Kažkas labai lėtas. Ką daryti?
         -   pvz.: Kažkas visai nedirba. Ką daryti?
@@ -32,7 +32,7 @@ Išankstinis techninių ir netechninių klausimų aptarimas ir reikalavimų išs
     -   prettier naudojimas?
     -   _git-conflict_ padedantys išvengti veiksmai?
     -   CI/CD naudojimas?
-    -   persiklausti, ar visi supranta, koks bus darbo procesas? (Github-flow)
+    -   perklausti, ar visi supranta, koks bus darbo procesas? (Github-flow)
 
 ## Užduočių planavimas
 
@@ -51,16 +51,16 @@ Tikslas yra kokybiškos užduotys, t.y. perskaičius praktiškai nekyla klausim�
 -   Priskirimas darbų lentai.
 -   Užduoties kūrimo metu nepriskirinėjam žmogaus, kuris ją turės atlikti! Nes mes ne pranašai ir nežinom kas tuo metu pas mus komandoje dirbs, kas bus gyvas, kas bus laisvas, t.t.
 -   Prieš pradedant atlikinėti užduotis (bendrai), jos turi būti surikiuotos prioriteto tvarka.
-    -   Užduočių atlikas vadovaujasi ta pačia prioriteto tvarka, t.y jei atsilaisvimai (atlikai darytą užduotį), tai imi sekančią svarbiausią užduotį.
+    -   Užduočių atlikėjas vadovaujasi ta pačia prioriteto tvarka, t.y jei atsilaisvinai (atlikai darytą užduotį), tai imi sekančią svarbiausią užduotį.
 
 ## Užduoties atlikimas
 
 Į ką atsižvelgti atlikinėjant užduotį.
 
 -   Nuo ko pradėti?
-    -   Perskaityti užduotį, ir įsitikinti, jog supranti ką reikia padaryti;
-    -   Jei kila papildomų klausimų - rašom komentarus prie tos pačios užduoties (Github'e) ir laukiam patikslinimų iš komandos narių ir/arba kliento;
-    -   Užduotyje prisiskiram save kaip _Assignee_;
+    -   Perskaityti užduotį ir įsitikinti, jog supranti ką reikia padaryti;
+    -   Jei kyla papildomų klausimų - rašom komentarus prie tos pačios užduoties (Github'e) ir laukiam patikslinimų iš komandos narių ir/arba kliento;
+    -   Užduotyje prisiskiriam save kaip _Assignee_;
     -   Susikuriam _feature-branch_ Github'e (online) ir dirbam;
     -   Jei projekte yra naudojami/rašomi testai (pvz.: Jest), tai reikia atskirame terminale pasileisti testų script'ą;
     -   reikalingi resursai (nuotraukos, šriftai, video, audio) turi būti įtraukiami su kiekviena individualia užduoti, o ne sukelta prieš pradedant dirbti bendrai prie projekto;
@@ -75,7 +75,7 @@ Tikslas yra kokybiškos užduotys, t.y. perskaičius praktiškai nekyla klausim�
     -   Klausiam mentorių;
 -   Jei atliekant užduotį paaiškėja, jog dalies funkcionalumo nepavyks įgyvendinti?
     -   atliekam tiek užduoties kiek galim;
-    -   atliekam visą procesą susijusi apie pagalbos iš kitų gavimą;
+    -   atliekam visą procesą susijusį su pagalbos iš kitų gavimu;
     -   neišspręstą funkcionalumo dalį išsikeliame kaip naują atskirą užduotį;
 -   Testavimas/tikrinimas, tiek atlikinėjant užduotį, tiek ją baigus:
     -   jei kalba eina apie struktūrą (HTML):
@@ -93,7 +93,7 @@ Tikslas yra kokybiškos užduotys, t.y. perskaičius praktiškai nekyla klausim�
         -   jei užduotyje buvo numatyti naudoti tikrus testus (pvz.: Jest), tai ar jie aprašyti? Būtų labai gerai, jei kokybiškų testų būtų kuo daugiau.
 -   Baigus užduotį:
     -   pasidaryti dar vieną papildomą PR iš _develop_ branch'o;
-    -   jei kilo _git conflict'as_ - ištaisom, jog jo neliktu;
+    -   jei kilo _git conflict'as_ - ištaisom, jog jo neliktų;
     -   jei sugriūvo dizainas ir/arba logika - ištaisom, jog viskas veiktų taip kaip reikia;
     -   ir tik tada galim susikurti savo PR iš _feature-branch_ į _develop_ branch'ą;
 
@@ -104,15 +104,15 @@ Procesas kodo kokybei palaikyti ir gal net pagerinti.
 -   visų pirma atsisiunčiame PR pas save lokaliai;
 -   persijungiame brach'ą į PR branch'ą;
 -   pasileisti `npm i` komandą;
--   jei naudojai testai, tai pasileisti _test_ komandą `npm run test`;
+-   jei naudojami testai, tai pasileisti _test_ komandą `npm run test`;
     -   jei randamos klaidos - Github PR komentaruose taip ir parašom; kol neištaisys, tolimesnis tikrinimas nebus daromas;
--   pasileisti _dev_ serverį su `npm run dev` komandą;
+-   pasileisti _dev_ serverį su `npm run dev` komanda;
     -   naršyklėje atsidaryti nuorodą;
     -   sužiūrėti _responsive design_;
     -   patikrinti, ar _console_ švari?
     -   sužiūrėti, ar laikomasi HTML, CSS ir JS rašymo reikalavimų (žr. Užduoties atlikimas)
     -   ar visi resursai užsikrauna (failai)?
-    -   sužiūrėti, jog PR turi viską ko reikalo užduotis (darbų lenta), jei kažko nėra - žymim kaip klaidą, nebent buvo susitartą tą dalį iškelti kaip atskirą užduotį;
+    -   sužiūrėti, jog PR turi viską ko reikalavo užduotis (darbų lenta), jei kažko nėra - žymim kaip klaidą, nebent buvo susitarta tą dalį iškelti kaip atskirą užduotį;
     -   jei randamos klaidos ir žinomos tikslios vietos kode kur jos kyla, tai reikia _Github PR -> Files changed_ dalyje pažymėti tas vietas ir parašyti konkrečius komentarus kas ten yra galima negerai ir/arba ką gali tobulinti;
     -   jei randama klaida, bet tikrintojui nepavyksta nustatyti priežasties, tai tokį komentarą reikia parašyti prie "Review changes" formos;
     -   jei rasta kritinių klaidų, tai privaloma "Review changes" formoje spausti "Request changes" parinkti;
